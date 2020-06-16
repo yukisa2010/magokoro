@@ -1,0 +1,133 @@
+@media screen and (max-width:768px){
+    
+    .page-header{
+        .page-header__box{
+            h1{
+                font-size: 26px;
+                line-height: 1.1;
+                br{
+                    display: block;
+                }
+                .big{
+                    font-size: 35px;
+                }
+            }
+            
+        }
+    }
+    .clean{
+        h2{
+            font-size: 23px;
+        }
+        .clean-wrapper{
+            flex-direction: column;
+            padding-top: 60px;
+            figure{
+                margin-bottom: 30px;
+            }
+            .clean-wrapper__top{
+                h3{
+                    font-size: 25px;
+                    top: -3%;
+                    left: 35%;
+                    transform: rotate(-5deg);
+                }
+            }
+
+            
+        }       
+    }
+
+    .relief{
+        h2{
+            font-size: 23px;
+        }
+    }
+    .flow{
+        h2{
+            font-size: 23px;
+        }
+        .flow-box{
+            ul{
+                li{
+                    padding: 10px;
+                    figure{
+                        
+                        img{
+                            width: 125px;
+                            height: 185px;
+                        }
+                    }p{
+                        font-size: 0.7rem;
+                        word-break: break-all;
+                    }
+                    br{
+                        display: block;
+                    }
+                }
+            }
+        }
+        .order-confirmation{
+            section{
+                h3{
+                    font-size: 23px;
+                }
+            }
+        }
+    }
+    .question{
+        h2{
+            font-size: 23px;
+        }
+    }
+    .request-flow{
+        h2{
+            font-size: 23px;
+        }
+    }
+    .custermer-boice{
+        h2{
+            font-size: 23px;
+        }
+        .custermer-boice__wrapper{
+            .custermer-boice__list{
+                li{
+                    flex-direction: column;
+                    &:nth-child(even){
+                        flex-direction: column;
+                        section{
+                            margin: 1.5em 0 1.5em 0;
+                            &::before{
+                                content: "";
+                                top: -15px;
+                                left: 47%;
+                                border: 15px solid transparent;
+                                border-bottom: 15px solid #e0edff;
+                            }
+                        }
+                    }
+
+                    &:nth-child(odd){
+                        section{
+                            margin: 1.5em 0 1.5em 0;
+                            &::before{
+                                content: "";
+                                top: -15px;
+                                left: 47%;
+                                border: 15px solid transparent;
+                                border-bottom: 15px solid #e0edff;
+                            }
+                        }
+                        
+                    }
+                    section{
+                        
+                        p{
+                            padding: 15px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

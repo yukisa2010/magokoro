@@ -1,0 +1,40 @@
+@import"../setting/color";
+.page-header{
+    max-width: 1024px;
+    margin: 0 auto;
+    .page-header__box{
+        padding: 15px 0;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        h1{
+            font-size: 30px;
+            .big{
+                font-size: 40px;
+            }
+            .blue{
+                color: $header-title__span;
+            }
+            br{
+                display: none;
+            }
+        }
+        .page-header__form{
+            padding-left: 15px;
+            dl{
+                dt{
+                    margin-bottom: 5px;
+                }
+                dd{
+
+                }
+            }
+        }
+    }
+    p{
+        text-align: center;
+        margin: 30px;
+        font-size: 16px;
+    }
+}
+

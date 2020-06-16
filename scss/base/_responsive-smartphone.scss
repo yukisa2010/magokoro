@@ -1,0 +1,252 @@
+@media screen and (max-width:425px){
+    .page-header{
+        .page-header__box{
+            padding: 5px ;
+            h1{
+                font-size: 20px;
+                .big{
+                    font-size: 25px;
+                }
+            }
+            .page-header__form{
+                padding-left: 5px;
+                dl{
+                    dt{
+                        font-size: 1.0rem;
+                    }
+                    dd{
+                        font-size: 0.8rem;
+                        word-break: break-all;
+                    }
+                }
+            }
+        }
+        p{
+            margin: 0;
+            margin-bottom: 15px;
+        }
+    }
+    .clean{
+        h2{
+            font-size: 20px;
+        }
+        .clean-wrapper{
+            
+            figure{
+                margin-bottom: 30px;
+            }
+            .clean-wrapper__top{
+                h3{
+                    font-size: 20px;
+                    top: -3%;
+                    left: 35%;
+                    transform: rotate(-5deg);
+                }
+                dl{
+                    
+                    
+                    dt{
+                        font-size: 0.9rem;
+                    
+                    }
+                    dd{
+                        font-size: 0.8rem;
+                        
+                    }
+                }
+               
+            }
+
+            
+        }
+        .clean-wrraper__texts{
+        
+            
+            dl{
+                text-align: center;
+                margin-bottom: 15px;
+                
+                dt{
+                    font-size: 20px;
+                    
+                }
+                dd{
+                    font-size: 0.8rem;
+                }
+            }
+            .clean-wrraper__form{
+                p{
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+    .relief{
+        h2{
+            font-size: 20px;
+        }
+        dl{
+            
+            dt{
+                font-size: 15px;
+                
+            }
+            dd{
+                font-size: 0.8rem;
+            }
+        }
+        .relief-baforeafter{
+            margin: 0 auto;
+            ul{
+                text-align: center;
+                flex-direction: column;
+                li{
+                    position: relative;
+                    text-align: center;
+                    span{
+                        position: absolute;
+                        left: 45%;
+                        top: 90%;
+                        z-index: 1;
+                        
+                        .fa-arrow-right{
+                            
+                            transform: rotate(90deg);
+                        }
+                    }
+                    figure{
+                        
+                        &:first-child{
+                            margin-right: 0;
+                            margin-bottom: 30px;
+                        }
+                        
+                        img{
+                            width: 250px;
+                            height: 300px;
+                        }
+                    }
+                    p{
+                        
+                        top: 15%;
+                        left: 37%;
+                    }
+                    
+                }
+            }
+            p{
+                
+                margin: -15px;
+            }
+        }
+    }
+    .flow{
+        h2{
+            font-size: 20px;
+        }
+        .flow-box{
+            ul{
+                flex-direction: column;
+                li{
+                    
+                    figure{
+                        
+                        img{
+                            width: 250px;
+                            height: 300px;
+                        }
+                    }p{
+                       
+                    }
+                    
+                }
+            }
+            
+        }
+        .order-confirmation{
+            section{
+                h3{
+                    font-size: 18px;
+                }
+                p{
+                    font-size: 0.8rem;
+                }
+            }
+            
+        }
+    }
+    .question{
+        h2{
+            font-size: 20px;
+        }
+        .question-wrapper{
+            p{
+                font-size: 17px;
+            }
+            .question-wrapper__list{
+                width: 100vw;
+                .question-wrapper__title{
+                    font-size: 0.9rem;
+                }
+                .question-wrapper__answer{
+                    
+                    
+                }
+            }
+        }
+    }
+    .request-flow{
+        h2{
+            font-size: 20px;
+        }
+        .request-flow__list{
+            dl{
+                dt{
+                    font-size: 1rem;
+                }
+                dd{
+
+                    p{
+                    
+                    }
+                    ol{
+                        li{
+    
+                        }
+                    }
+                }
+            }
+            
+        }
+    }
+    .custermer-boice{
+        h2{
+            font-size: 20px;
+        }
+        .custermer-boice__wrapper{
+            .custermer-boice__list{
+                li{
+                    &:nth-child(even){
+                        section{
+                            margin: 1.5em 0 1.5em 0;
+                            &::before{
+                                content: "";
+                                left: 45%;
+                            }
+                        }
+                    }
+                    &:nth-child(odd){
+                        section{
+                            margin: 1.5em 0 1.5em 0;
+                            &::before{
+                                content: "";
+                                left: 45%;
+                            }
+                        }    
+                    }
+                    
+                }
+            }
+        }
+    }
+}

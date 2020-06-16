@@ -1,0 +1,13 @@
+@mixin _btn {
+    display: inline-block;
+    padding: 20px 40px;
+    border-radius: 10px;
+    color: $clean-form;
+    background-color: $clean-form__back;
+    text-decoration: none;
+    opacity: 0.8;
+    transition: all ease 0.8s;
+    &:hover{
+        opacity: 1;
+    }
+}
