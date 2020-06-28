@@ -53,8 +53,63 @@ footer, header, hgroup, menu, nav, section {
   border-left: 1px #000 solid;
 }
 
+#navbar ul li a {
+  color: #111;
+  text-decoration: none;
+}
+
+#navbar ul li a:hover {
+  color: #ccc;
+}
+
 #navbar ul li:last-child {
   border-right: 1px #000 solid;
+}
+
+#new-edit {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+#new-edit #option {
+  margin-top: 50px;
+}
+
+#new-edit #company {
+  margin-top: 50px;
+}
+
+#new-edit #greet h1 {
+  padding: 10px;
+  font-size: 30px;
+}
+
+#new-edit #greet h2 {
+  margin-top: 20px;
+  font-size: 22px;
+}
+
+#new-edit #greet p {
+  line-height: 30px;
+}
+
+#new-edit #name_greet {
+  margin-top: 20px;
+  font-size: 25px;
+  text-align: right;
+}
+
+#new-edit #greet {
+  margin-top: 50px;
+}
+
+#new-edit #company td {
+  height: 50px;  
+}
+
+
+#new-edit #option td {
+  height: 50px;  
 }
 
 nav ul {
