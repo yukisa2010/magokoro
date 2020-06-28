@@ -39,6 +39,24 @@ footer, header, hgroup, menu, nav, section {
   display: block;
 }
 
+#navbar ul {
+  display: flex;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+#navbar ul li {
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  border-left: 1px #000 solid;
+}
+
+#navbar ul li:last-child {
+  border-right: 1px #000 solid;
+}
+
 nav ul {
   list-style: none;
 }
